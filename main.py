@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import datetime
 
 sleptLate = False
 wokeLate = False
@@ -59,8 +59,8 @@ while studentAmount >= x:
   minV2 = int(timesV2[1])
   print(timesV2, students[x-1] + "1")
   
-  val1 = timedelta(2022, 1, 1, hourV1, minV1, 0)
-  val2 = timedelta(2022, 1, 3, hourV2, minV2, 0)
+  val1 = datetime(2022, 1, 1, hourV1, minV1, 0)
+  val2 = datetime(2022, 1, 1, hourV2, minV2, 0)
   
   finalSleepTotal = val2 - val1
 
